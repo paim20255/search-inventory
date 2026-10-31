@@ -8,7 +8,8 @@ public class InventorySearchApp {
 
         System.out.println("Our story carries: ");
         for (Product product : inventory){
-            System.out.printf("Id : %d | %s | $%.2f%n");
+            System.out.printf("Id : %d | %s | $%.2f%n",
+                    product.getId(), product.getName(), product.getPrice());
         }
 
 
